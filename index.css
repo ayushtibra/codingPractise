@@ -1,0 +1,9 @@
+.form {
+  background-color: red;
+}
+
+@media screen and (max-width: 480px) {
+  .form {
+    background-color: blue;
+  }
+}
