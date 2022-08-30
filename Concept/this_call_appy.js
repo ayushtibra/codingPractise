@@ -1,4 +1,5 @@
 // https://javascript.plainenglish.io/what-is-the-this-keyword-in-javascript-200c837f5495
+
 const person = {
   firstname: "ayush",
   lastname: "tibra",
@@ -24,5 +25,5 @@ person.tryNew();
 //If this is referenced outside of an object, then it will refer to the global object. This is the default binding.
 console.log(this);
 
-person.fullname.apply(Person2, ["cool", "boy"]);
 person.fullname.call(Person2, "wise", "funny");
+person.fullname.apply(Person2, ["cool", "boy"]);
