@@ -1,14 +1,14 @@
+//leetcode.com/problems/remove-duplicates-from-sorted-array/
+
 var removeDuplicates = function (nums) {
   let p1 = 0;
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] != nums[i + 1]) {
-      //   console.log(i);
-      //   nums[p1] = nums[i];
+      nums[p1] = nums[i];
       p1++;
     }
   }
-
-  //   nums.splice(p1);
+  nums.splice(p1);
   return p1;
 };
 
