@@ -1,3 +1,5 @@
+//leetcode.com/problems/richest-customer-wealth/
+
 var maximumWealth = function (accounts) {
   const result = accounts.reduce((prev, curr) => {
     let sumEl = curr.reduce((prev, curr) => {
