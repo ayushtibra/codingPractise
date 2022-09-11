@@ -1,3 +1,4 @@
+//leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
 var countKDifference = function (nums, k) {
   let count = 0;
   for (let i = 0; i < nums.length; i++) {

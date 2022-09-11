@@ -1,6 +1,6 @@
 //leetcode.com/problems/container-with-most-water/
 
-https: var maxArea = function (height) {
+var maxArea = function (height) {
   let area = 0;
   let leftP1 = 0;
   let rightP2 = height.length - 1;

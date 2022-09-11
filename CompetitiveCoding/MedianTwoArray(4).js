@@ -1,6 +1,6 @@
 //leetcode.com/problems/median-of-two-sorted-arrays/
 
-https: function MedianTwoArray(arr1, arr2) {
+function MedianTwoArray(arr1, arr2) {
   const mergedArray = [...nums1, ...nums2].sort((a, b) => a - b);
 
   if (mergedArray.length % 2 != 0) {
