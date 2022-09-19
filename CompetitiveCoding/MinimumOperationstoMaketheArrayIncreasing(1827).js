@@ -18,6 +18,7 @@
 
 // minOperations([1, 5, 2, 4, 1]);
 
+//leetcode.com/problems/minimum-operations-to-make-the-array-increasing/
 var push = (k, array) => {
   for (let i = 1; i <= k / 2; i++) {
     array.push(i, -i);
